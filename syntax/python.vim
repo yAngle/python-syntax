@@ -551,7 +551,7 @@ if version >= 508 || !exists("did_python_syn_inits")
   HiLink pythonHexError         Error
   HiLink pythonBinError         Error
 
-  HiLink pythonBoolean          Boolean
+  HiLink pythonBoolean          Structure
 
   HiLink pythonBuiltinObj       Structure
   HiLink pythonBuiltinFunc      Function
