@@ -530,9 +530,9 @@ if version >= 508 || !exists("did_python_syn_inits")
     HiLink pythonRawBytes           String
     HiLink pythonBytesContent       String
     HiLink pythonBytesError         Error
-    HiLink pythonBytesEscape        Special
-    HiLink pythonBytesEscapeError   Error
   endif
+  HiLink pythonBytesEscape      Special
+  HiLink pythonBytesEscapeError Error
 
   HiLink pythonStrFormatting    Special
   HiLink pythonStrFormat        Special
